@@ -20,12 +20,6 @@ intro() {
 
 slp() { 
 	var=${1:-1}
-	
-	if [ var = "" ];
-	then
-		var=1
-	fi
-	
 	sleep $var 
 }
 
